@@ -90,6 +90,9 @@ Features are broken up into the following priority levels, with nested prioritie
     -   [ ] Tag objects + autocomplete [HIGH] [#476 (Autocomplete)](https://github.com/TagStudioDev/TagStudio/issues/476)
     -   [ ] Filename search [HIGH]
     -   [ ] Filetype search [HIGH]
+        -   [ ] Search by extension (e.g. ".jpg", ".png") [HIGH]
+            -   [ ] Optional consolidation of extension synonyms (i.e. ".jpg" can equal ".jpeg") [LOW]
+        -   [ ] Search by media type (e.g. "image", "video", "document") [MEDIUM]
     -   [ ] Field content search [HIGH] [#272](https://github.com/TagStudioDev/TagStudio/issues/272)
     -   [ ] HAS operator for composition tags [HIGH]
     -   [ ] OCR search [LOW]
@@ -113,6 +116,7 @@ Features are broken up into the following priority levels, with nested prioritie
     -   [ ] Tag Search [HIGH]
     -   [ ] Pinned Tags [HIGH]
 -   [ ] Configurable Thumbnails [MEDIUM]
+    -   [ ] Custom thumbnail override [HIGH]
     -   [ ] Toggle File Extension Label [MEDIUM]
     -   [ ] Toggle Duration Label [MEDIUM]
     -   [ ] Custom Tag Badges [LOW]
@@ -120,6 +124,11 @@ Features are broken up into the following priority levels, with nested prioritie
     -   [ ] File Duration Label [HIGH]
     -   [ ] 3D Model Previews [LOW]
         -   [ ] STL Previews [HIGH] [#351](https://github.com/TagStudioDev/TagStudio/issues/351)
+-   [x] Drag and Drop [HIGH]
+    -   [x] Drag files _to_ other programs [HIGH]
+    -   [x] Drag files _to_ file explorer windows [MEDIUM]
+    -   [x] Drag files _from_ file explorer windows [MEDIUM]
+    -   [x] Drag files _from_ other programs [LOW]
 -   [ ] File Preview Panel [HIGH]
     -   [ ] Video Playback [HIGH]
         -   [x] Play/Pause [HIGH]
@@ -148,6 +157,7 @@ These version milestones are rough estimations for when the previous core featur
 ### 9.5 (Alpha)
 
 -   [ ] SQL backend [HIGH]
+-   [ ] Translations _(Any applicable)_ [MEDIUM]
 -   [ ] Multiple Root Directories per Library [HIGH]
 -   [ ] Tags [HIGH]
     -   [ ] Deleting Tags [HIGH]
