@@ -224,7 +224,7 @@ class MediaCategories:
         #".eps",
         #".svgz",
     }
-    _IMAGE_SET: set[str] = {
+    _IMAGE_RASTER_SET: set[str] = {
         ".apng",
         ".avif",
         ".bmp",
@@ -536,7 +536,7 @@ class MediaCategories:
         FONT_TYPES,
         IMAGE_ANIMATED_TYPES,
         IMAGE_RAW_TYPES,
-        IMAGE_TYPES,
+        IMAGE_RASTER_TYPES,
         IMAGE_VECTOR_TYPES,
         INSTALLER_TYPES,
         MATERIAL_TYPES,
